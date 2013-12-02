@@ -5,7 +5,7 @@
  */
 void error (const char *s)
 {
-    perror (s);
+    //perror (s);
     throw s;
     exit (-1);
 }
